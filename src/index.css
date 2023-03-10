@@ -1,0 +1,304 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li{
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+
+  margin-left: 20px;
+  height: fit-content;
+}
+
+button:hover {
+  color: red;
+}
+
+
+.top-title{
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100px;
+  justify-content: space-evenly;
+  gap: 30%;
+  border-style: none none solid none;
+  border-width: 0px 0px 1px 0px;
+  border-bottom-color: rgb(209,209,209);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.lotion-title{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 300px;
+
+  
+}
+
+.show-pages{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+
+}
+
+.blank{
+
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+#pageButton{
+
+  background-color: var(--default);
+  color: black;
+  border-width: 0px;
+  font-size: 25px;
+
+}
+
+.bottom-content{
+
+  display: flex;
+  height: 740px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-pages{
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin: 0px;
+
+  height: 669px;
+
+
+}
+
+.text-editing{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 16;
+  border-style: none none none solid;
+  border-width: 0px 0px 0px 1px;
+  border-left-color: rgb(209,209,209);
+
+}
+
+.left-sidebar{
+
+  width: 450px;
+  height: 740px;
+}
+
+.left-title{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 290px;
+  font-size: larger;
+  margin-top: 20px;
+
+  border-style: none none solid none;
+  border-width: 0px 0px 1px 0px;
+  border-bottom-color: rgb(209,209,209);
+  height: 50px;  
+  
+}
+
+#addPageButton{
+
+  background-color: var(--default);
+  color: black;
+  border-width: 0px;
+  font-size: 25px;
+}
+
+
+.lPage{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 140px;
+  align-self: stretch;
+  align-items: stretch;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: rgb(209,209,209);
+}
+
+.scrollbar{
+
+  overflow-x: clip;
+  overflow-y: auto;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+.page-title{
+
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.page-text{
+
+  margin-left: 18px;
+  margin-top: 10px;
+
+}
+
+h4.date{
+
+
+  margin-left: 18px;
+  margin-top: 5px;
+  color: rgb(124, 124, 124);
+  font-size: smaller;
+
+}
+
+.title-save-del{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+  margin-left: 0px;
+  gap: 930px;
+
+  height: 125px;
+  width: 1453px;
+}
+
+.main-page-title{
+
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  padding-left: 20px;
+  font-size: large;
+
+}
+
+.left-page-title{
+
+  display: flex;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.svdel{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  gap: 100px;
+
+}
+
+.quill{
+
+  width: 1370px;
+  font-size: 20px;
+
+}
+
+.middle{
+
+  display: flex;
+  justify-content: center;
+  width: 1420px;
+}
+
+.ql-container{
+
+  font-size: 20px;
+}
+
+#title{
+
+  font-size: 20px;
+  border: none;
+  height: 46.66px;
+  
+}
+
+#title:focus{
+
+  outline: none;
+}
+
+.viewing-text{
+
+  width: 1370px;
+}
+
+.view-title{
+
+  display: flex;
+  align-items: center;
+  padding: 1px 2px;
+
+  width: 243px;
+  height: 58px;
+}
+
+.saveButton, .delButton, .editButton{
+
+  width: 40px;
+}
+
+.view-title-border{
+
+  border-style: none none solid none;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(209,209,209);
+}
+
+.small-gap{
+
+  gap: 30px;
+}
+
+.true-page{
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 197, 207);
+}
+
+#date-local{
+
+  border: none;
+}
